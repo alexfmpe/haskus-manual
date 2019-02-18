@@ -6,7 +6,7 @@ FlowT (ExceptT-like approach)
 
 Just like `ExceptT
 <https://www.stackage.org/haddock/lts-12.17/transformers-0.5.5.0/Control-Monad-Trans-Except.html#t:ExceptT>`_
-wraps ``Either``, we can use a ``FlowT`` newtype to wraps a ``Variant``.
+wraps ``Either``, we can use a ``FlowT`` newtype to wrap a ``Variant``.
 Compared to the :ref:`"Either+Variant" approach<variant_do_notation_either>`, we
 avoid the ``Either`` indirection: the first value of the Variant is considered
 as the ``Right`` value and the other ones as the error values.
