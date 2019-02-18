@@ -89,7 +89,7 @@ Test:
    Left V @ParseError ParseError
 
 
-2) Or if don't give ``foo`` a type signature we can fix the ``Variant`` type when we call it:
+2) Or if we don't give ``foo`` a type signature we can fix the ``Variant`` type when we call it:
 
 .. code:: haskell
 
