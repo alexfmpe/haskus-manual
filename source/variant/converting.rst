@@ -75,7 +75,7 @@ types with ``appendVariant`` and ``prependVariant``:
    > :t px
    px :: V '[A, B, String, Int]
 
-You can use the ``Concat`` type family to specify the type of a concatened
+You can use the ``Concat`` type family to specify the type of a concatenated
 variant:
 
 .. code::
