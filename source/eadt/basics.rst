@@ -148,7 +148,7 @@ And indeed this works pretty well:
    10 : 20 : 30 : Nil
 
 
-However this approach is a unsatisfactory for two reasons:
+However this approach is unsatisfactory for two reasons:
 
    1.  The pattern matching isn't safe: for now the compiler cannot use the
        EADT constructor type list to infer that the pattern-match is
